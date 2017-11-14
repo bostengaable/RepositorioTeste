@@ -1,0 +1,19 @@
+<html>
+
+<title> funciona pelo amor de deus </title>
+
+<body>
+  <?php
+      $testeSom = "teste som, funciona ai";
+    
+      class Som {
+            if ($testeSom == String){
+   
+            echo '$testeSom';
+    
+      }
+  ?>
+<form name = nome value = ''>
+</form>
+
+</html>
