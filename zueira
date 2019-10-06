@@ -1,6 +1,6 @@
 <html>
 
-<title> funciona pelo amor de deus </title>
+<title>pequeno progrmaniha</title>
 
 <body>
   <?php
@@ -10,10 +10,15 @@
             if ($testeSom == String){
    
             echo '$testeSom';
-    
+      }
+      else{
+          return null;
       }
   ?>
-<form name = nome value = ''>
+  
+Imprimindo o valor do php:<p>  
+<form name = nome action = "<?php $Som ?>" />
+
 </form>
 
 </html>
