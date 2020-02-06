@@ -1,24 +1,38 @@
 <html>
 
-<title>pequeno progrmaniha</title>
+  <title>pequeno progrmaniha</title>
 
-<body>
-  <?php
-      $testeSom = "teste som, funciona ai";
+  <body>
+    <?php
+        $testeSom = "teste som, funciona ai";
     
-      class Som {
-            if ($testeSom == String){
+       class Som {
+                    if ($testeSom == String){
    
-            echo '$testeSom';
-      }
+                    echo '$testeSom';
+                 }
       else{
           return null;
       }
   ?>
   
-Imprimindo o valor do php:<p>  
+  Imprimindo o valor do php:<p>  
 <form name = nome action = "<?php $Som ?>" />
 
 </form>
 
+
+<h1> Teste de Junkebox</h1>
+
+<p>Lista de canções</p>
+
+<li>musiquinha 1</li>
+
+<li>musiquinha 2</li>
+
+<li>musiquinha 3</li>
+<form type = "button" value = "botão"></form>
+
 </html>
+
+
